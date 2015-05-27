@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "How Smart can you Hack with Spark\n\n\nDownload the Data Set\n\n\nFirst \nlogin to your Spark VM\n.\n\n\nFrom within your Spark VM enter the following into the terminal:\n\n\ncd /Data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip\n\n\n\n\nNext you'll likely want to \nload your data into HDFS", 
+            "text": "How Smart can you Hack with Spark\n\n\nRequest your Environments\n\n\n\n\nRequired\n \n \nRequest your Analytics Environemnt\n\n\nOptional\n \n \nRequest your Visualization Environemnt\n\n\n\n\nConfigure Github\n\n\n\n\nFind your teams project on \nHackspark's github page\n\n\nClone your teams repository (\nsee instructions here\n)\n\n\n\n\nDownload the Sample Data Set\n\n\nFirst \nlogin to your Spark VM\n.\n\n\nFrom within your Spark VM enter the following into the terminal:\n\n\ncd /data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip\n\n\n\n\nNext you'll likely want to \nload your data into HDFS\n and \nrun your first Spark program", 
             "title": "First Steps"
         }, 
         {
@@ -11,9 +11,19 @@
             "title": "How Smart can you Hack with Spark"
         }, 
         {
-            "location": "/#download-the-data-set", 
-            "text": "First  login to your Spark VM .  From within your Spark VM enter the following into the terminal:  cd /Data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip  Next you'll likely want to  load your data into HDFS", 
-            "title": "Download the Data Set"
+            "location": "/#request-your-environments", 
+            "text": "Required     Request your Analytics Environemnt  Optional     Request your Visualization Environemnt", 
+            "title": "Request your Environments"
+        }, 
+        {
+            "location": "/#configure-github", 
+            "text": "Find your teams project on  Hackspark's github page  Clone your teams repository ( see instructions here )", 
+            "title": "Configure Github"
+        }, 
+        {
+            "location": "/#download-the-sample-data-set", 
+            "text": "First  login to your Spark VM .  From within your Spark VM enter the following into the terminal:  cd /data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip  Next you'll likely want to  load your data into HDFS  and  run your first Spark program", 
+            "title": "Download the Sample Data Set"
         }, 
         {
             "location": "/environments/analytics/", 

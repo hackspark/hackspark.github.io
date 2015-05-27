@@ -51,7 +51,11 @@
             
                 <li class="toctree-l3"><a href="#how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</a></li>
                 
-                    <li><a class="toctree-l4" href="#download-the-data-set">Download the Data Set</a></li>
+                    <li><a class="toctree-l4" href="#request-your-environments">Request your Environments</a></li>
+                
+                    <li><a class="toctree-l4" href="#configure-github">Configure Github</a></li>
+                
+                    <li><a class="toctree-l4" href="#download-the-sample-data-set">Download the Sample Data Set</a></li>
                 
             
             </ul>
@@ -136,15 +140,25 @@
             <div class="section">
               
                 <h1 id="how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</h1>
-<h2 id="download-the-data-set">Download the Data Set</h2>
+<h2 id="request-your-environments">Request your Environments</h2>
+<ul>
+<li><em>Required</em> &nbsp; <a href="./environments/analytics/#requesting-your-environment">Request your Analytics Environemnt</a></li>
+<li><em>Optional</em> &nbsp; <a href="./environments/visualization/#requesting-your-environment">Request your Visualization Environemnt</a></li>
+</ul>
+<h2 id="configure-github">Configure Github</h2>
+<ul>
+<li>Find your teams project on <a href="https://github.com/hackspark">Hackspark's github page</a></li>
+<li>Clone your teams repository (<a href="https://help.github.com/articles/set-up-git/">see instructions here</a>)</li>
+</ul>
+<h2 id="download-the-sample-data-set">Download the Sample Data Set</h2>
 <p>First <a href="./environments/analytics/#accessing-your-spark-vm">login to your Spark VM</a>.</p>
 <p>From within your Spark VM enter the following into the terminal:</p>
-<pre><code class="shell">cd /Data
+<pre><code class="shell">cd /data
 wget --content-disposition bit.ly/BostonHackData
 unzip Boston-Hackathon-May-28.zip
 </code></pre>
 
-<p>Next you'll likely want to <a href="./howtos/loadhdfs/">load your data into HDFS</a></p>
+<p>Next you'll likely want to <a href="./howtos/loadhdfs/">load your data into HDFS</a> and <a href="./howtos/firstspark/">run your first Spark program</a></p>
               
             </div>
           </div>
@@ -191,5 +205,5 @@ unzip Boston-Hackathon-May-28.zip
 
 <!--
 MkDocs version : 0.13.1
-Build Date UTC : 2015-05-27 17:51:19.090245
+Build Date UTC : 2015-05-27 18:10:08.389844
 -->
