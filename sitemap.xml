@@ -10,35 +10,29 @@
     
 
     
+        
     <url>
-     <loc>None/slack/</loc>
+     <loc>None/environments/analytics/</loc>
      <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>None/environments/visualization/</loc>
+     <lastmod>2015-05-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>None/analytics/</loc>
+     <loc>None/howtos/loadhdfs/</loc>
      <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>None/visualization/</loc>
-     <lastmod>2015-05-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/bradley/</loc>
-     <lastmod>2015-05-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
     

@@ -3,7 +3,7 @@
         {
             "location": "/", 
             "text": "How Smart can you Hack with Spark\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nDownload the Data Set\n\n\ncd /Data\nwget http://bit.ly/BostonHackData", 
-            "title": "Home"
+            "title": "First Steps"
         }, 
         {
             "location": "/#how-smart-can-you-hack-with-spark", 
@@ -26,44 +26,59 @@
             "title": "Download the Data Set"
         }, 
         {
-            "location": "/slack/", 
-            "text": "Slack", 
-            "title": "Slack"
+            "location": "/environments/analytics/", 
+            "text": "Overview\n\n\nEvery team will get their own Analytics Environment, which they will use to analyze data with Spark. Your Analytics Environment is comprised of the following cloud services:\n\n\n\n\nUpload/Download service - Get files from your personal computers to the cloud\n\n\nSpark Virtual Machine - Run spark jobs\n\n\n\n\nRequesting your Environment\n\n\nEach team will get a single Analytics Environment. \nTeam leaders\n should request the environment \nhere\n.\n\n\nUsing your Environment\n\n\nAccessing your Spark VM\n\n\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nFollow the instructions to SSH into your Spark VM.\n\n\nFrom within your Spark VM you can run shell commands such as \npyspark\n, \nspark-shell\n, and \nhdfs\n\n\n\n\nUploading code and data to your Spark VM\n\n\n\n\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nClick the \"Uploads/Downloads\" link, \nthis will open up a new tab in your browser\n\n\nUpload your files to your Spark server using the Upload/Download page.\n\n\nAs soon as the process completes, you should be able to access your files on your Spark VM in the \n/uploads\n directory.\n\n\n\n\nAlternatively you can use the \nwget\n command from within your Spark VM to get files from external websites or servers.\n\n\nDownloading files from your Spark VM to your personal computer\n\n\n\n\nFrom the Spark VM, move any files you want to down to the \n/uploads\n directory.\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nClick the \"Uploads/Downloads\" link, \nthis will open up a new tab in your browser\n\n\nYou should see the files you moved from \nStep 1\n in the file listing. Simply click the file to download.\n\n\n\n\nLoading\n\n\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nFollow the instructions to SSH into your Spark VM.\n\n\nFrom within your Spark VM you can run shell commands such as \npyspark\n, \nspark-shell\n, and \nhdfs", 
+            "title": "Analytics"
         }, 
         {
-            "location": "/slack/#slack", 
+            "location": "/environments/analytics/#overview", 
+            "text": "Every team will get their own Analytics Environment, which they will use to analyze data with Spark. Your Analytics Environment is comprised of the following cloud services:   Upload/Download service - Get files from your personal computers to the cloud  Spark Virtual Machine - Run spark jobs", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/environments/analytics/#requesting-your-environment", 
+            "text": "Each team will get a single Analytics Environment.  Team leaders  should request the environment  here .", 
+            "title": "Requesting your Environment"
+        }, 
+        {
+            "location": "/environments/analytics/#using-your-environment", 
             "text": "", 
-            "title": "Slack"
+            "title": "Using your Environment"
         }, 
         {
-            "location": "/analytics/", 
-            "text": "Analytics Environment", 
-            "title": "Analytics Environment"
+            "location": "/environments/analytics/#accessing-your-spark-vm", 
+            "text": "As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Follow the instructions to SSH into your Spark VM.  From within your Spark VM you can run shell commands such as  pyspark ,  spark-shell , and  hdfs", 
+            "title": "Accessing your Spark VM"
         }, 
         {
-            "location": "/analytics/#analytics-environment", 
-            "text": "", 
-            "title": "Analytics Environment"
+            "location": "/environments/analytics/#uploading-code-and-data-to-your-spark-vm", 
+            "text": "As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Click the \"Uploads/Downloads\" link,  this will open up a new tab in your browser  Upload your files to your Spark server using the Upload/Download page.  As soon as the process completes, you should be able to access your files on your Spark VM in the  /uploads  directory.   Alternatively you can use the  wget  command from within your Spark VM to get files from external websites or servers.", 
+            "title": "Uploading code and data to your Spark VM"
         }, 
         {
-            "location": "/visualization/", 
+            "location": "/environments/analytics/#downloading-files-from-your-spark-vm-to-your-personal-computer", 
+            "text": "From the Spark VM, move any files you want to down to the  /uploads  directory.  As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Click the \"Uploads/Downloads\" link,  this will open up a new tab in your browser  You should see the files you moved from  Step 1  in the file listing. Simply click the file to download.", 
+            "title": "Downloading files from your Spark VM to your personal computer"
+        }, 
+        {
+            "location": "/environments/analytics/#loading", 
+            "text": "As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Follow the instructions to SSH into your Spark VM.  From within your Spark VM you can run shell commands such as  pyspark ,  spark-shell , and  hdfs", 
+            "title": "Loading"
+        }, 
+        {
+            "location": "/environments/visualization/", 
             "text": "Visualization Environment", 
-            "title": "Visualization Environment"
+            "title": "Visualization"
         }, 
         {
-            "location": "/visualization/#visualization-environment", 
+            "location": "/environments/visualization/#visualization-environment", 
             "text": "", 
             "title": "Visualization Environment"
         }, 
         {
-            "location": "/bradley/", 
-            "text": "Slack", 
-            "title": "Bradleys Test"
-        }, 
-        {
-            "location": "/bradley/#slack", 
+            "location": "/howtos/loadhdfs/", 
             "text": "", 
-            "title": "Slack"
+            "title": "Load data into HDFS"
         }, 
         {
             "location": "/about/", 

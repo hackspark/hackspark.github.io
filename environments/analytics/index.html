@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Analytics - How Smart can you Hack with Spark</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> How Smart can you Hack with Spark</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">First Steps</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Environments</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Analytics</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#overview">Overview</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#requesting-your-environment">Requesting your Environment</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#using-your-environment">Using your Environment</a></li>
+                
+                    <li><a class="toctree-l4" href="#accessing-your-spark-vm">Accessing your Spark VM</a></li>
+                
+                    <li><a class="toctree-l4" href="#uploading-code-and-data-to-your-spark-vm">Uploading code and data to your Spark VM</a></li>
+                
+                    <li><a class="toctree-l4" href="#downloading-files-from-your-spark-vm-to-your-personal-computer">Downloading files from your Spark VM to your personal computer</a></li>
+                
+                    <li><a class="toctree-l4" href="#loading">Loading</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../visualization/">Visualization</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>HOWTOs</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../howtos/loadhdfs/">Load data into HDFS</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/">About</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">How Smart can you Hack with Spark</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Environments &raquo;</li>
+        
+      
+    
+    <li>Analytics</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="overview">Overview</h1>
+<p>Every team will get their own Analytics Environment, which they will use to analyze data with Spark. Your Analytics Environment is comprised of the following cloud services:</p>
+<ul>
+<li>Upload/Download service - Get files from your personal computers to the cloud</li>
+<li>Spark Virtual Machine - Run spark jobs</li>
+</ul>
+<h1 id="requesting-your-environment">Requesting your Environment</h1>
+<p>Each team will get a single Analytics Environment. <strong>Team leaders</strong> should request the environment <a href="http://hackspark.imdemocloud.com">here</a>.</p>
+<h1 id="using-your-environment">Using your Environment</h1>
+<h2 id="accessing-your-spark-vm">Accessing your Spark VM</h2>
+<ol>
+<li>As the <strong>Team Leader</strong> log in to the <a href="http://my.imdemocloud.com">IM Demo Cloud</a> and go to your project page.</li>
+<li>Follow the instructions to SSH into your Spark VM.</li>
+<li>From within your Spark VM you can run shell commands such as <em>pyspark</em>, <em>spark-shell</em>, and <em>hdfs</em></li>
+</ol>
+<h2 id="uploading-code-and-data-to-your-spark-vm">Uploading code and data to your Spark VM</h2>
+<p><img alt="Upload1" src="../../images/upload1.png" /></p>
+<ol>
+<li>As the <strong>Team Leader</strong> log in to the <a href="http://my.imdemocloud.com">IM Demo Cloud</a> and go to your project page.</li>
+<li>Click the "Uploads/Downloads" link, <em>this will open up a new tab in your browser</em></li>
+<li>Upload your files to your Spark server using the Upload/Download page.</li>
+<li>As soon as the process completes, you should be able to access your files on your Spark VM in the <strong>/uploads</strong> directory.</li>
+</ol>
+<p><em>Alternatively you can use the <strong>wget</strong> command from within your Spark VM to get files from external websites or servers.</em></p>
+<h2 id="downloading-files-from-your-spark-vm-to-your-personal-computer">Downloading files from your Spark VM to your personal computer</h2>
+<ol>
+<li>From the Spark VM, move any files you want to down to the <strong>/uploads</strong> directory.</li>
+<li>As the <strong>Team Leader</strong> log in to the <a href="http://my.imdemocloud.com">IM Demo Cloud</a> and go to your project page.</li>
+<li>Click the "Uploads/Downloads" link, <em>this will open up a new tab in your browser</em></li>
+<li>You should see the files you moved from <em>Step 1</em> in the file listing. Simply click the file to download.</li>
+</ol>
+<h2 id="loading">Loading</h2>
+<ol>
+<li>As the <strong>Team Leader</strong> log in to the <a href="http://my.imdemocloud.com">IM Demo Cloud</a> and go to your project page.</li>
+<li>Follow the instructions to SSH into your Spark VM.</li>
+<li>From within your Spark VM you can run shell commands such as <em>pyspark</em>, <em>spark-shell</em>, and <em>hdfs</em></li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../visualization/" class="btn btn-neutral float-right" title="Visualization"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../.." class="btn btn-neutral" title="First Steps"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    <!-- Copyright etc -->
+    </p>
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../.." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../visualization/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
