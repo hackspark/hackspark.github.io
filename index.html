@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>How Smart can you Hack with Spark</title>
+  <title>Hack Spark</title>
   
 
   <link rel="shortcut icon" href="./img/favicon.ico">
@@ -32,7 +32,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> How Smart can you Hack with Spark</a>
+        <a href="." class="icon icon-home"> Hack Spark</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -45,17 +45,17 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href=".">Home</a>
+        <a class="current" href=".">First Steps</a>
         
             <ul>
             
-                <li class="toctree-l3"><a href="#how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</a></li>
+                <li class="toctree-l3"><a href="#request-your-environments">Request your Environments</a></li>
                 
-                    <li><a class="toctree-l4" href="#commands">Commands</a></li>
+            
+                <li class="toctree-l3"><a href="#configure-github">Configure Github</a></li>
                 
-                    <li><a class="toctree-l4" href="#project-layout">Project layout</a></li>
-                
-                    <li><a class="toctree-l4" href="#download-the-data-set">Download the Data Set</a></li>
+            
+                <li class="toctree-l3"><a href="#download-the-sample-data-set">Download the Sample Data Set</a></li>
                 
             
             </ul>
@@ -64,24 +64,47 @@
 <li>
           
             <li>
+    <ul class="subnav">
+    <li><span>Environments</span></li>
+
+        
+            
     <li class="toctree-l1 ">
-        <a class="" href="slack/">Slack</a>
+        <a class="" href="environments/spark/">Spark</a>
         
     </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="environments/visualization/">Data Scientist Workbench</a>
+        
+    </li>
+
+        
+    </ul>
 <li>
           
             <li>
+    <ul class="subnav">
+    <li><span>HOWTOs</span></li>
+
+        
+            
     <li class="toctree-l1 ">
-        <a class="" href="analytics/">Analytics Environment</a>
+        <a class="" href="howtos/loadhdfs/">Load Data into HDFS</a>
         
     </li>
-<li>
-          
-            <li>
+
+        
+            
     <li class="toctree-l1 ">
-        <a class="" href="visualization/">Visualization Environment</a>
+        <a class="" href="howtos/firstspark/">Run your First Spark Program</a>
         
     </li>
+
+        
+    </ul>
 <li>
           
             <li>
@@ -101,7 +124,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">How Smart can you Hack with Spark</a>
+        <a href=".">Hack Spark</a>
       </nav>
 
       
@@ -113,7 +136,7 @@
     
       
     
-    <li>Home</li>
+    <li>First Steps</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -123,25 +146,26 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <p>Welcome to the Spark hackathon!</p>
+<h1 id="request-your-environments">Request your Environments</h1>
+<p>For this hackathon your team are provided with a Spark environment to run your analytics and Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
+<li><em>Required:</em> &nbsp; As the <strong>Team Leader</strong>, <a href="./environments/spark/#requesting-the-spark-environment-for-your-team">Request your team's Spark Environemnt</a></li>
+<li><em>Optional:</em> &nbsp; As a team member, <a href="./environments/visualization/#requesting-your-environment">Request your own Data Scientist Workbench</a></li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h1 id="configure-github">Configure Github</h1>
+<ul>
+<li>Find your teams project on <a href="https://github.com/hackspark" target="blank">HackSpark's GitHub page</a></li>
+<li>Clone your teams repository (<a href="https://help.github.com/articles/set-up-git" target="blank">see instructions here</a>)</li>
+</ul>
+<h1 id="download-the-sample-data-set">Download the Sample Data Set</h1>
+<p>We provided a sample data set for your team, but you can also bring your own data. To load the sample data set, <a href="./environments/spark/#accessing-your-spark-server">Login to your Spark Server</a> and enter the following commands into the terminal:</p>
+<pre><code class="shell">cd /data
+wget --content-disposition bit.ly/BostonHackData
+unzip Boston-Hackathon-May-28.zip
 </code></pre>
-<h2 id="download-the-data-set">Download the Data Set</h2>
-<pre><code class="shell">cd /Data
-wget http://bit.ly/BostonHackData
-</code></pre>
+
+<p>Next you'll likely want to <a href="./howtos/loadhdfs/">load the data into HDFS</a> and <a href="./howtos/firstspark/">run your first Spark program</a>.</p>
               
             </div>
           </div>
@@ -149,7 +173,7 @@ wget http://bit.ly/BostonHackData
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="slack/" class="btn btn-neutral float-right" title="Slack"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="environments/spark/" class="btn btn-neutral float-right" title="Spark"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
     </div>
@@ -178,7 +202,7 @@ wget http://bit.ly/BostonHackData
       
       
       
-        <span style="margin-left: 15px"><a href="slack/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="environments/spark/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
@@ -188,5 +212,5 @@ wget http://bit.ly/BostonHackData
 
 <!--
 MkDocs version : 0.13.0
-Build Date UTC : 2015-05-26 23:21:55.195032
+Build Date UTC : 2015-05-27 23:29:24.985831
 -->

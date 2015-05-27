@@ -4,39 +4,47 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2015-05-26</lastmod>
+     <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>None/slack/</loc>
-     <lastmod>2015-05-26</lastmod>
+     <loc>None/environments/spark/</loc>
+     <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>None/environments/visualization/</loc>
+     <lastmod>2015-05-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>None/analytics/</loc>
-     <lastmod>2015-05-26</lastmod>
+     <loc>None/howtos/loadhdfs/</loc>
+     <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>None/visualization/</loc>
-     <lastmod>2015-05-26</lastmod>
+     <loc>None/howtos/firstspark/</loc>
+     <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
     <url>
      <loc>None/about/</loc>
-     <lastmod>2015-05-26</lastmod>
+     <lastmod>2015-05-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
