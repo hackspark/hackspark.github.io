@@ -51,10 +51,6 @@
             
                 <li class="toctree-l3"><a href="#how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</a></li>
                 
-                    <li><a class="toctree-l4" href="#commands">Commands</a></li>
-                
-                    <li><a class="toctree-l4" href="#project-layout">Project layout</a></li>
-                
                     <li><a class="toctree-l4" href="#download-the-data-set">Download the Data Set</a></li>
                 
             
@@ -140,24 +136,15 @@
             <div class="section">
               
                 <h1 id="how-smart-can-you-hack-with-spark">How Smart can you Hack with Spark</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
 <h2 id="download-the-data-set">Download the Data Set</h2>
+<p>First <a href="./environments/analytics/#accessing-your-spark-vm">login to your Spark VM</a>.</p>
+<p>From within your Spark VM enter the following into the terminal:</p>
 <pre><code class="shell">cd /Data
-wget http://bit.ly/BostonHackData
+wget --content-disposition bit.ly/BostonHackData
+unzip Boston-Hackathon-May-28.zip
 </code></pre>
+
+<p>Next you'll likely want to <a href="./howtos/loadhdfs/">load your data into HDFS</a></p>
               
             </div>
           </div>
@@ -204,5 +191,5 @@ wget http://bit.ly/BostonHackData
 
 <!--
 MkDocs version : 0.13.1
-Build Date UTC : 2015-05-27 17:39:02.128439
+Build Date UTC : 2015-05-27 17:51:19.090245
 -->

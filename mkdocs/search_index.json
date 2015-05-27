@@ -2,27 +2,17 @@
     "docs": [
         {
             "location": "/", 
-            "text": "How Smart can you Hack with Spark\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nDownload the Data Set\n\n\ncd /Data\nwget http://bit.ly/BostonHackData", 
+            "text": "How Smart can you Hack with Spark\n\n\nDownload the Data Set\n\n\nFirst \nlogin to your Spark VM\n.\n\n\nFrom within your Spark VM enter the following into the terminal:\n\n\ncd /Data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip\n\n\n\n\nNext you'll likely want to \nload your data into HDFS", 
             "title": "First Steps"
         }, 
         {
             "location": "/#how-smart-can-you-hack-with-spark", 
-            "text": "For full documentation visit  mkdocs.org .", 
+            "text": "", 
             "title": "How Smart can you Hack with Spark"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
-        }, 
-        {
             "location": "/#download-the-data-set", 
-            "text": "cd /Data\nwget http://bit.ly/BostonHackData", 
+            "text": "First  login to your Spark VM .  From within your Spark VM enter the following into the terminal:  cd /Data\nwget --content-disposition bit.ly/BostonHackData\nunzip Boston-Hackathon-May-28.zip  Next you'll likely want to  load your data into HDFS", 
             "title": "Download the Data Set"
         }, 
         {
