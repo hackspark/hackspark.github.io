@@ -210,7 +210,7 @@
 <pre><code class="bash"># Where you downloaded the .pem file above.
 cd ~/Downloads/
 
-chmod go-rw \*.pem
+chmod 400 \*.pem
 
 # E.g.: ssh -i john.pem john@127.0.0.1
 ssh -i username.pem username@ip_address
@@ -220,7 +220,7 @@ ssh -i username.pem username@ip_address
 <ul>
 <li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTYgen</a> to convert your SSH key (username.pem) from PEM format to PPK format.</li>
 <li>Load the PPK key into <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">Pageant</a>.</li>
-<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a> to connect to username@ip_address.</li>
+<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a> to connect to <strong><code>username@ip_address</code></strong>.</li>
 <li>Note that "username" is your Demo Cloud username and "ip_address" is the IP address of your Spark Server.</li>
 </ul>
 <p>From within your Spark Server you can run shell commands such as <em>pyspark</em>, <em>spark-shell</em>, and <em>hdfs</em>.</p>
