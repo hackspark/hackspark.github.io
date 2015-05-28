@@ -51,6 +51,13 @@
 <li>
           
             <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../slack/">Slack</a>
+        
+    </li>
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>Environments</span></li>
 
@@ -83,7 +90,7 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../visualization/">Data Scientist Workbench</a>
+        <a class="" href="../dswb/">Data Scientist Workbench</a>
         
     </li>
 
@@ -111,13 +118,6 @@
 
         
     </ul>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../../about/">About</a>
-        
-    </li>
 <li>
           
         </ul>
@@ -149,6 +149,10 @@
     <li>Spark</li>
     <li class="wy-breadcrumbs-aside">
       
+        
+          <a href="https://github.com/hackspark" class="icon icon-github"> Edit on GitHub</a>
+        
+      
     </li>
   </ul>
   <hr/>
@@ -169,36 +173,24 @@
 <p>Once you gained access, you must then share the Spark credentials with all the members of your team.</p>
 <h1 id="using-your-spark-environment">Using your Spark Environment</h1>
 <h2 id="accessing-your-spark-server">Accessing your Spark Server</h2>
-<ol>
-<li>
 <p>Get the credentials from your <strong>Team Leader</strong>.</p>
-</li>
-<li>
 <p>On Mac and Linux, you should open Terminal and run the command below, where "username" is your Demo Cloud username and "ip_address" is the IP address of your Spark Server.</p>
-</li>
-</ol>
-<pre><code class="shell">cd ~/Downloads/ # Where you downloaded the .pem file above.
-chmod go-rw *.pem
-ssh -i username.pem username@ip_address # E.g.: ssh -i john.pem john@127.0.0.1
+<pre><code class="bash"># Where you downloaded the .pem file above.
+cd ~/Downloads/
+
+chmod go-rw \*.pem
+
+# E.g.: ssh -i john.pem john@127.0.0.1
+ssh -i username.pem username@ip_address
 </code></pre>
 
-<!-- TODO: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html -->
-
-<ol>
-<li>
-<p>On Windows, you should install PuTTY. You should then use the following steps to connect. Or just get a Mac :)</p>
+<p>On Windows, you should install <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a>. You should then use the following steps to connect. Or just get a Mac. :)</p>
 <ul>
-<li>Use PuTTYgen to convert your SSH key (username.pem) from PEM format to PPK format.</li>
-<li>Load the PPK key into Pageant.</li>
-<li>Use PuTTY to connect to username@ip_address.</li>
+<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTYgen</a> to convert your SSH key (username.pem) from PEM format to PPK format.</li>
+<li>Load the PPK key into <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">Pageant</a>.</li>
+<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a> to connect to username@ip_address.</li>
 <li>Note that "username" is your Demo Cloud username and "ip_address" is the IP address of your Spark Server.</li>
 </ul>
-</li>
-<li>
-<p>As the <strong>Team Leader</strong>, log in to the <a href="http://my.imdemocloud.com" target="blank">IM Demo Cloud</a> and go to your project page.</p>
-</li>
-<li>Follow the instructions to SSH into your Spark Server.</li>
-</ol>
 <p>From within your Spark Server you can run shell commands such as <em>pyspark</em>, <em>spark-shell</em>, and <em>hdfs</em>.</p>
 <h2 id="uploading-code-and-data-to-your-spark-server">Uploading code and data to your Spark Server</h2>
 <p><img alt="Upload1" src="../../images/upload1.png" /></p>
@@ -224,10 +216,10 @@ ssh -i username.pem username@ip_address # E.g.: ssh -i john.pem john@127.0.0.1
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../visualization/" class="btn btn-neutral float-right" title="Data Scientist Workbench"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../dswb/" class="btn btn-neutral float-right" title="Data Scientist Workbench"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../.." class="btn btn-neutral" title="First Steps"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../slack/" class="btn btn-neutral" title="Slack"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -253,11 +245,13 @@ ssh -i username.pem username@ip_address # E.g.: ssh -i john.pem john@127.0.0.1
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
-        <span><a href="../.." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+        <span><a href="../../slack/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../visualization/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../dswb/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
