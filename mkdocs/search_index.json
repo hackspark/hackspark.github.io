@@ -92,7 +92,7 @@
         }, 
         {
             "location": "/howtos/loadhdfs/", 
-            "text": "Assuming your data is in \n/data\n, follow these steps:\n\n\n\n\nCreate a data directory in HDFS.\n\n\n\n\nhdfs dfs -mkdir data\n\n\n\n\n\n\nLoad the CSV files.\n\n\n\n\ncd /data\nhdfs dfs -put file1.csv data/", 
+            "text": "Assuming your data is in \n/data\n, follow these steps:\n\n\n\n\n\n\nCreate a data directory in HDFS.\n\n\nhdfs dfs -mkdir data\n\n\n\n\n\n\nLoad the CSV files.\n\n\n\n\n\n\ncd /data\nhdfs dfs -put file1.csv data/", 
             "title": "Load Data into HDFS"
         }, 
         {
