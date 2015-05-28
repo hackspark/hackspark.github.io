@@ -104,6 +104,11 @@
             "location": "/howtos/firstspark/", 
             "text": "run-example SparkPi 10", 
             "title": "Run your First Spark Program"
+        }, 
+        {
+            "location": "/howtos/configure-spark-verbosity/", 
+            "text": "Create the Log4j properties file.\n\n\ncp \\\n  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties.template \\\n  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties\n\n\n\n\n\n\n\nUsing \nvi\n, open the newly created file.\n\n\nvi /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties\n\n\n\n\n\n\n\nEdit the following line.\n\n\nlog4j.rootCategory=WARN, console\n\n\n\nYou must replace \nWARN\n, with one of the following options, going from the most verbose to the least verbose.\n\n\n\n\nDEBUG\n\n\nINFO\n\n\nWARN\n\n\nERROR\n\n\nFATAL\n\n\n\n\nWe recommend using \nWARN\n.", 
+            "title": "Configure Spark Verbosity"
         }
     ]
 }

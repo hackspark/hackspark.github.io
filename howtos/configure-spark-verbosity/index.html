@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Data Scientist Workbench - Hack Spark</title>
+  <title>Configure Spark Verbosity - Hack Spark</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -74,34 +74,14 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../spark/">Spark</a>
+        <a class="" href="../../environments/spark/">Spark</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Data Scientist Workbench</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#overview">Overview</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#requesting-your-own-data-scientist-workbench">Requesting your own Data Scientist Workbench</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#sharing-notebooks">Sharing Notebooks</a></li>
-                
-                    <li><a class="toctree-l4" href="#exporting-notebooks">Exporting Notebooks</a></li>
-                
-                    <li><a class="toctree-l4" href="#importing-notebooks">Importing Notebooks</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#visualize-your-analysis-results">Visualize your Analysis Results</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../environments/dswb/">Data Scientist Workbench</a>
         
     </li>
 
@@ -116,21 +96,25 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../howtos/loadhdfs/">Load Data into HDFS</a>
+        <a class="" href="../loadhdfs/">Load Data into HDFS</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../howtos/firstspark/">Run your First Spark Program</a>
+        <a class="" href="../firstspark/">Run your First Spark Program</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../../howtos/configure-spark-verbosity/">Configure Spark Verbosity</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Configure Spark Verbosity</a>
+        
+            <ul>
+            
+            </ul>
         
     </li>
 
@@ -160,11 +144,11 @@
     
       
         
-          <li>Environments &raquo;</li>
+          <li>HOWTOs &raquo;</li>
         
       
     
-    <li>Data Scientist Workbench</li>
+    <li>Configure Spark Verbosity</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -178,39 +162,33 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="overview">Overview</h1>
-<p>Data Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks. We recommend that you use notebooks as the way to visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.</p>
-<h1 id="requesting-your-own-data-scientist-workbench">Requesting your own Data Scientist Workbench</h1>
-<p>Go to <a href="https://datascientistworkbench.com" target="blank">Data Scientist Workbench</a> and click the big blue button.</p>
-<h1 id="sharing-notebooks">Sharing Notebooks</h1>
-<p>Sharing notebooks can be very useful not only for team collaboration, but as a means to present your results publicly.</p>
-<h2 id="exporting-notebooks">Exporting Notebooks</h2>
-<p>Follow these steps to share notebooks using GitHub:</p>
-<ol>
-<li>Go to <a href="https://datascientistworkbench.com" target="blank">Data Scientist Workbench</a>.</li>
-<li>On the menu, click "My Notebooks".</li>
-<li>Open the notebook you want to share.</li>
-<li>On the menu, click "File", "Download as" and choose "IPython Notebook (.ipynb)".</li>
-<li>Save the file in a convenient folder in your project directory.</li>
-<li>Commit and push to GitHub.</li>
-<li>Go to your project page in <a href="https://github.com" target="blank">GitHub</a> and find your newly committed notebook.</li>
-<li>Click it to open and then click the "Raw" button.</li>
-<li>Send this URL to the person you want to share the notebook with. If they are in your team, use Slack!</li>
-</ol>
-<p>You can now find your notebook in GitHub and share its link.</p>
-<h2 id="importing-notebooks">Importing Notebooks</h2>
-<ol>
-<li>Copy the GitHub link of the notebook you want to import.</li>
-<li>Go to <a href="https://datascientistworkbench.com" target="blank">Data Scientist Workbench</a> and click "My Notbooks".</li>
-<li>Paste the link in the text field at the top right corner of the page.</li>
-<li>Hit "Enter" to import the notebook.</li>
-</ol>
-<h1 id="visualize-your-analysis-results">Visualize your Analysis Results</h1>
-<ol>
-<li>User Spark to write results to CSV files.</li>
-<li>Transfer from HDFS to local filesystem.</li>
-<li>Download the files to your laptop using the Uploads/Downloads service.</li>
-<li>Go to Data Scientist Notebooks and drag/drop your CSV files in it.</li>
+                <ol>
+<li>
+<p>Create the Log4j properties file.</p>
+<pre><code>cp \
+  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties.template \
+  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties
+</code></pre>
+</li>
+<li>
+<p>Using <a href="http://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/" target="blank">vi</a>, open the newly created file.</p>
+<pre><code>vi /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties
+</code></pre>
+</li>
+<li>
+<p>Edit the following line.</p>
+<pre><code>log4j.rootCategory=WARN, console
+</code></pre>
+<p>You must replace <code>WARN</code>, with one of the following options, going from the most verbose to the least verbose.</p>
+<ul>
+<li><code>DEBUG</code></li>
+<li><code>INFO</code></li>
+<li><code>WARN</code></li>
+<li><code>ERROR</code></li>
+<li><code>FATAL</code></li>
+</ul>
+<p>We recommend using <code>WARN</code>.</p>
+</li>
 </ol>
               
             </div>
@@ -219,10 +197,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../howtos/loadhdfs/" class="btn btn-neutral float-right" title="Load Data into HDFS"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../spark/" class="btn btn-neutral" title="Spark"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../firstspark/" class="btn btn-neutral" title="Run your First Spark Program"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -251,10 +227,8 @@
           <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../spark/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../firstspark/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../../howtos/loadhdfs/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
