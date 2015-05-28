@@ -54,17 +54,25 @@
         <ul class="current">
           
             <li>
+    <ul class="subnav">
+    <li><span>Introduction</span></li>
+
+        
+            
     <li class="toctree-l1 ">
         <a class="" href="../..">First Steps</a>
         
     </li>
-<li>
-          
-            <li>
+
+        
+            
     <li class="toctree-l1 ">
         <a class="" href="../../slack/">Slack</a>
         
     </li>
+
+        
+    </ul>
 <li>
           
             <li>
@@ -187,7 +195,20 @@
 <li><code>ERROR</code></li>
 <li><code>FATAL</code></li>
 </ul>
-<p>We recommend using <code>WARN</code>.</p>
+<p><strong>We recommend using <code>ERROR</code>.</strong> The file contents should match the following snippet.</p>
+<pre><code># Set everything to be logged to the console
+log4j.rootCategory=ERROR, console
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.target=System.err
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd HH:mm:ss} %p %c{1}: %m%n
+
+# Settings to quiet third party logs that are too verbose
+log4j.logger.org.eclipse.jetty=WARN
+log4j.logger.org.eclipse.jetty.util.component.AbstractLifeCycle=ERROR
+log4j.logger.org.apache.spark.repl.SparkIMain$exprTyper=INFO
+log4j.logger.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=INFO
+</code></pre>
 </li>
 </ol>
               
