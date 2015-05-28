@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/slack/", 
-            "text": "Slack\n is an awesome platform for team communication and it's our tool of choice for this hackathon. All the communication will happen through Slack!\n\n\nYou should have been invited to this hackathon's Slack team during registration. In case you haven't, please find one of the organizers and ask for help!\n\n\nIf you are on Mac OS, we recommend that you install the official native \napp\n.", 
+            "text": "Slack\n is an awesome platform for team communication and it's our tool of choice for this hackathon. All the communication will happen through Slack!\n\n\nYou should have been invited to this hackathon's Slack team during registration. In case you haven't, please find one of the organizers and ask for help!\n\n\nIf you are on Mac OS, we recommend that you install the official native \napp\n. It is also available on mobile for \niOS\n and \nAndroid\n.", 
             "title": "Slack"
         }, 
         {
@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/howtos/loadhdfs/", 
-            "text": "Assuming your data is in \n/data\n, follow these steps:\n\n\n\n\n\n\nCreate a data directory in HDFS.\n\n\nhdfs dfs -mkdir data\n\n\n\n\n\n\n\nLoad the CSV files.\n\n\ncd /data\nhdfs dfs -put file1.csv data/", 
+            "text": "Assuming your data is in \n/data\n, follow these steps:\n\n\n\n\n\n\nCreate a data directory in HDFS.\n\n\nhdfs dfs -mkdir data\n\n\n\n\n\n\n\nLoad the CSV files.\n\n\ncd /data\nhdfs dfs -put file1.csv data/\n\n\n\n\n\n\n\nList files in the HDFS directory.\n\n\nhdfs dfs -ls data", 
             "title": "Load Data into HDFS"
         }, 
         {
