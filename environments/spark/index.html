@@ -206,24 +206,39 @@
 <h1 id="using-your-spark-environment">Using your Spark Environment</h1>
 <h2 id="accessing-your-spark-server">Accessing your Spark Server</h2>
 <p>Get the credentials from your <strong>Team Leader</strong>.</p>
-<p>On Mac and Linux, you should open Terminal and run the command below, where "username" is your Demo Cloud username and "ip_address" is the IP address of your Spark Server.</p>
+<h3 id="mac-os-and-linux">Mac OS and Linux</h3>
+<p>Open Terminal and run the command below, where <code>USERNAME</code> is your Demo Cloud username and <code>IP-ADDRESS</code> is the IP address of your Spark Server.</p>
 <pre><code class="bash"># Where you downloaded the .pem file above.
-cd ~/Downloads/
+cd ~/Downloads
 
-chmod 400 \*.pem
+chmod 400 *.pem
 
 # E.g.: ssh -i john.pem john@127.0.0.1
-ssh -i username.pem username@ip_address
+ssh -i USERNAME.pem USERNAME@IP-ADDRESS
 </code></pre>
 
-<p>On Windows, you should install <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a>. You should then use the following steps to connect. Or just get a Mac. :)</p>
+<h3 id="windows">Windows</h3>
+<p>Install <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a>. You should then use the following steps to connect. Or just get a Mac. :)</p>
 <ul>
-<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTYgen</a> to convert your SSH key (username.pem) from PEM format to PPK format.</li>
-<li>Load the PPK key into <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">Pageant</a>.</li>
-<li>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a> to connect to <strong><code>username@ip_address</code></strong>.</li>
-<li>Note that "username" is your Demo Cloud username and "ip_address" is the IP address of your Spark Server.</li>
+<li>
+<p>Use <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTYgen</a> to convert your SSH key (<code>USERNAME.pem</code>) from PEM format to PPK format (<code>USERNAME.ppk</code>).</p>
+</li>
+<li>
+<p>Open <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="blank">PuTTY</a> and set the following parameters:</p>
+<ul>
+<li>Session &gt; Host Name (or IP address): <code>IP-ADDRESS</code></li>
+<li>Connection &gt; Data &gt; Auto-login username: <code>USERNAME</code></li>
+<li>Connection &gt; SSH &gt; Auth &gt; Private key for authentication: <code>USERNAME.ppk</code></li>
 </ul>
-<p>From within your Spark Server you can run shell commands such as <em>pyspark</em>, <em>spark-shell</em>, and <em>hdfs</em>.</p>
+</li>
+<li>
+<p>Click "Open" to access your Spark Server.</p>
+</li>
+<li>
+<p>Note that <code>USERNAME</code> is your Demo Cloud username and <code>IP-ADDRESS</code> is the IP address of your Spark Server.</p>
+</li>
+</ul>
+<p>From within your Spark Server you can run shell commands such as <code>pyspark</code>, <code>spark-shell</code>, and <code>hdfs</code>.</p>
 <h2 id="uploading-code-and-data-to-your-spark-server">Uploading code and data to your Spark Server</h2>
 <p><img alt="Upload1" src="../../images/upload1.png" /></p>
 <ol>
