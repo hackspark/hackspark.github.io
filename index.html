@@ -21,6 +21,7 @@
   <script src="./js/modernizr-2.8.3.min.js"></script>
   <script type="text/javascript" src="./js/highlight.pack.js"></script>
   <script src="./js/theme.js"></script> 
+  <script src="./scripts/wufoo.js"></script>
 
   
   <script>
@@ -64,16 +65,23 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#request-your-environments">Request your Environments</a></li>
+                <li class="toctree-l3"><a href="#get-on-slack">Get on Slack</a></li>
                 
             
-                <li class="toctree-l3"><a href="#configure-github">Configure Github</a></li>
+                <li class="toctree-l3"><a href="#learn-spark">Learn Spark</a></li>
                 
             
-                <li class="toctree-l3"><a href="#download-the-sample-data-set">Download the Sample Data Set</a></li>
+                <li class="toctree-l3"><a href="#get-your-team">Get your team</a></li>
                 
             
             </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="running/">Get up and Running</a>
         
     </li>
 
@@ -98,13 +106,6 @@
             <li>
     <ul class="subnav">
     <li><span>Environments</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="environments/spark/">Spark</a>
-        
-    </li>
 
         
             
@@ -186,26 +187,39 @@
           <div role="main">
             <div class="section">
               
-                <p>Welcome to the Spark hackathon!</p>
-<h1 id="request-your-environments">Request your Environments</h1>
-<p>For this hackathon your team are provided with a Spark environment to run your analytics and Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.</p>
-<ul>
-<li><em>Required:</em> &nbsp; As the <strong>Team Leader</strong>, <a href="./environments/spark/#requesting-the-spark-environment-for-your-team">Request your team's Spark Environemnt</a></li>
-<li><em>Optional:</em> &nbsp; As a team member, <a href="./environments/dswb/#requesting-your-own-data-scientist-workbench">Request your own Data Scientist Workbench</a></li>
-</ul>
-<h1 id="configure-github">Configure Github</h1>
-<ul>
-<li>Find your teams project on <a href="https://github.com/hackspark" target="blank">HackSpark's GitHub page</a></li>
-<li>Clone your teams repository (<a href="https://help.github.com/articles/set-up-git" target="blank">see instructions here</a>)</li>
-</ul>
-<h1 id="download-the-sample-data-set">Download the Sample Data Set</h1>
-<p>We provided a sample data set for your team, but you can also bring your own data. To load the sample data set, <a href="./environments/spark/#accessing-your-spark-server">Login to your Spark Server</a> and enter the following commands into the terminal:</p>
-<pre><code class="shell">cd /data
-wget --content-disposition j.mp/BostonHackDataV2
-unzip Boston-Hackathon-May-28-v2.zip
-</code></pre>
+                <p>Welcome to the Hack Spark!</p>
+<p><center>
+<a href="http://www.meetup.com/BigDataDevelopers/events/222615107/" data-event="222615107" class="mu-rsvp-btn">RSVP</a></p>
+<p><strong>Join us in San Francisco on June 12th!</strong>
+</center></p>
+<h1 id="get-on-slack">Get on Slack</h1>
+<p>Fill in and submit the form below to join this hackathon's <a href="https://hackspark-sf.slack.com/" target="blank">Slack team</a>. Go <a href="./slack/">here</a> to find more information about Slack.</p>
+<div id="wufoo-mpmae7502ljznp">
+Fill out my <a href="https://bigdatamaven.wufoo.com/forms/mpmae7502ljznp">online form</a>.
+</div>
 
-<p>Next you'll likely want to <a href="./howtos/loadhdfs/">load the data into HDFS</a> and <a href="./howtos/firstspark/">run your first Spark program</a>.</p>
+<script type="text/javascript">var mpmae7502ljznp;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'bigdatamaven',
+'formHash':'mpmae7502ljznp',
+'autoResize':true,
+'height':'400',
+'async':true,
+'host':'wufoo.com',
+'header':'hide',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { mpmae7502ljznp = new WufooForm();mpmae7502ljznp.initialize(options);mpmae7502ljznp.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+<h1 id="learn-spark">Learn Spark</h1>
+<p>New to Spark? Take the <a href="http://bigdatauniversity.com/bdu-wp/bdu-course/spark-fundamentals/" target="blank">Spark Fundamentals</a> course on <a href="http://bigdatauniversity.com" target="blank">Big Data University</a>.</p>
+<h1 id="get-your-team">Get your team</h1>
+<p>How are you getting your cut of the <strong>$10,000</strong> in prizes? Bring your team in! Get your folks to RSVP <a href="http://www.meetup.com/BigDataDevelopers/events/222615107/" target="blank">here</a>, then and go in Slack and chat with <code>teambot</code> to register your team. If you don't have a team, he'll help to find one!</p>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://a248.e.akamai.net/secure.meetupstatic.com/s/script/541522619002077648/api/mu.btns.js?id=1kkisb4nv72dcplq7e9h05k8lv";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
               
             </div>
           </div>
@@ -213,7 +227,7 @@ unzip Boston-Hackathon-May-28-v2.zip
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="slack/" class="btn btn-neutral float-right" title="Slack"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="running/" class="btn btn-neutral float-right" title="Get up and Running"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
     </div>
@@ -244,7 +258,7 @@ unzip Boston-Hackathon-May-28-v2.zip
       
       
       
-        <span style="margin-left: 15px"><a href="slack/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="running/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
@@ -254,5 +268,5 @@ unzip Boston-Hackathon-May-28-v2.zip
 
 <!--
 MkDocs version : 0.13.0
-Build Date UTC : 2015-05-29 15:57:50.705397
+Build Date UTC : 2015-06-02 21:54:23.010461
 -->

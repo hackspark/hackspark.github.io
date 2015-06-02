@@ -2,27 +2,47 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Spark hackathon!\n\n\nRequest your Environments\n\n\nFor this hackathon your team are provided with a Spark environment to run your analytics and Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.\n\n\n\n\nRequired:\n \n As the \nTeam Leader\n, \nRequest your team's Spark Environemnt\n\n\nOptional:\n \n As a team member, \nRequest your own Data Scientist Workbench\n\n\n\n\nConfigure Github\n\n\n\n\nFind your teams project on \nHackSpark's GitHub page\n\n\nClone your teams repository (\nsee instructions here\n)\n\n\n\n\nDownload the Sample Data Set\n\n\nWe provided a sample data set for your team, but you can also bring your own data. To load the sample data set, \nLogin to your Spark Server\n and enter the following commands into the terminal:\n\n\ncd /data\nwget --content-disposition j.mp/BostonHackDataV2\nunzip Boston-Hackathon-May-28-v2.zip\n\n\n\n\nNext you'll likely want to \nload the data into HDFS\n and \nrun your first Spark program\n.", 
+            "text": "Welcome to the Hack Spark!\n\n\n\n\nRSVP\n\n\nJoin us in San Francisco on June 12th!\n\n\n\n\nGet on Slack\n\n\nFill in and submit the form below to join this hackathon's \nSlack team\n. Go \nhere\n to find more information about Slack.\n\n\n\nFill out my \nonline form\n.\n\n\n\n\nvar mpmae7502ljznp;(function(d, t) {\nvar s = d.createElement(t), options = {\n'userName':'bigdatamaven',\n'formHash':'mpmae7502ljznp',\n'autoResize':true,\n'height':'400',\n'async':true,\n'host':'wufoo.com',\n'header':'hide',\n'ssl':true};\ns.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';\ns.onload = s.onreadystatechange = function() {\nvar rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;\ntry { mpmae7502ljznp = new WufooForm();mpmae7502ljznp.initialize(options);mpmae7502ljznp.display(); } catch (e) {}};\nvar scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);\n})(document, 'script');\n\n\n\nLearn Spark\n\n\nNew to Spark? Take the \nSpark Fundamentals\n course on \nBig Data University\n.\n\n\nGet your team\n\n\nHow are you getting your cut of the \n$10,000\n in prizes? Bring your team in! Get your folks to RSVP \nhere\n, then and go in Slack and chat with \nteambot\n to register your team. If you don't have a team, he'll help to find one!\n\n\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src=\"https://a248.e.akamai.net/secure.meetupstatic.com/s/script/541522619002077648/api/mu.btns.js?id=1kkisb4nv72dcplq7e9h05k8lv\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"mu-bootjs\");", 
             "title": "First Steps"
         }, 
         {
-            "location": "/#request-your-environments", 
-            "text": "For this hackathon your team are provided with a Spark environment to run your analytics and Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.   Required:    As the  Team Leader ,  Request your team's Spark Environemnt  Optional:    As a team member,  Request your own Data Scientist Workbench", 
-            "title": "Request your Environments"
+            "location": "/#get-on-slack", 
+            "text": "Fill in and submit the form below to join this hackathon's  Slack team . Go  here  to find more information about Slack.  \nFill out my  online form .  var mpmae7502ljznp;(function(d, t) {\nvar s = d.createElement(t), options = {\n'userName':'bigdatamaven',\n'formHash':'mpmae7502ljznp',\n'autoResize':true,\n'height':'400',\n'async':true,\n'host':'wufoo.com',\n'header':'hide',\n'ssl':true};\ns.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';\ns.onload = s.onreadystatechange = function() {\nvar rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;\ntry { mpmae7502ljznp = new WufooForm();mpmae7502ljznp.initialize(options);mpmae7502ljznp.display(); } catch (e) {}};\nvar scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);\n})(document, 'script');", 
+            "title": "Get on Slack"
         }, 
         {
-            "location": "/#configure-github", 
+            "location": "/#learn-spark", 
+            "text": "New to Spark? Take the  Spark Fundamentals  course on  Big Data University .", 
+            "title": "Learn Spark"
+        }, 
+        {
+            "location": "/#get-your-team", 
+            "text": "How are you getting your cut of the  $10,000  in prizes? Bring your team in! Get your folks to RSVP  here , then and go in Slack and chat with  teambot  to register your team. If you don't have a team, he'll help to find one!  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src=\"https://a248.e.akamai.net/secure.meetupstatic.com/s/script/541522619002077648/api/mu.btns.js?id=1kkisb4nv72dcplq7e9h05k8lv\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"mu-bootjs\");", 
+            "title": "Get your team"
+        }, 
+        {
+            "location": "/running/", 
+            "text": "Request your Environment\n\n\nFor this hackathon your team is provided with Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.\n\n\n\n\nRequest your Data Scientist Workbench\n\n\n\n\nConfigure Github\n\n\n\n\nFind your teams project on \nHackSpark's GitHub page\n\n\nClone your teams repository (\nsee instructions here\n)\n\n\n\n\nDownload the Sample Data Set\n\n\nWe provided a sample data set for your team, but you can also bring your own data. To load the sample data set, \nLogin to your Spark Server\n and enter the following commands into the terminal:\n\n\ncd /data\nwget --content-disposition j.mp/SFHackData\nunzip SF-Hackathon-June-12.zip\n\n\n\n\nNext you'll likely want to \nload the data into HDFS\n and \nrun your first Spark program\n.", 
+            "title": "Get up and Running"
+        }, 
+        {
+            "location": "/running/#request-your-environment", 
+            "text": "For this hackathon your team is provided with Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.   Request your Data Scientist Workbench", 
+            "title": "Request your Environment"
+        }, 
+        {
+            "location": "/running/#configure-github", 
             "text": "Find your teams project on  HackSpark's GitHub page  Clone your teams repository ( see instructions here )", 
             "title": "Configure Github"
         }, 
         {
-            "location": "/#download-the-sample-data-set", 
-            "text": "We provided a sample data set for your team, but you can also bring your own data. To load the sample data set,  Login to your Spark Server  and enter the following commands into the terminal:  cd /data\nwget --content-disposition j.mp/BostonHackDataV2\nunzip Boston-Hackathon-May-28-v2.zip  Next you'll likely want to  load the data into HDFS  and  run your first Spark program .", 
+            "location": "/running/#download-the-sample-data-set", 
+            "text": "We provided a sample data set for your team, but you can also bring your own data. To load the sample data set,  Login to your Spark Server  and enter the following commands into the terminal:  cd /data\nwget --content-disposition j.mp/SFHackData\nunzip SF-Hackathon-June-12.zip  Next you'll likely want to  load the data into HDFS  and  run your first Spark program .", 
             "title": "Download the Sample Data Set"
         }, 
         {
             "location": "/slack/", 
-            "text": "Slack\n is an awesome platform for team communication and it's our tool of choice for this hackathon. All the communication will happen through Slack!\n\n\nYou should have been invited to this hackathon's Slack team during registration. In case you haven't, please find one of the organizers and ask for help!\n\n\nIf you are on Mac OS, we recommend that you install the official native \napp\n. It is also available on mobile for \niOS\n and \nAndroid\n.", 
+            "text": "Slack\n is an awesome platform for team communication and it's our tool of choice for this hackathon. All the communication will flow through Slack!\n\n\nYou have been sent an invitation for this hackathon's \nSlack team\n. In case you haven't received it, please message us at \n asking for help!\n\n\nOnce your team is formed, you should create a \nprivate group\n for discussions, file sharing and collaboration in general.\n\n\nYou can use Slack from your Web browser, but we strongly recommend that you the native apps:\n\n\n\n\nMac OS\n\n\nWindows\n\n\niOS\n\n\nAndroid", 
             "title": "Slack"
         }, 
         {
@@ -31,48 +51,13 @@
             "title": "Resources"
         }, 
         {
-            "location": "/environments/spark/", 
-            "text": "Overview\n\n\nYour team will get you own Spark Environment, which you will use to analyze data. All members of the team are going to share the same credentials to access this environment. As the \nTeam Leader\n, you will need to distribute the login information to all of the members of your team.\n\n\nYour Spark Environment is comprised of the following cloud services:\n\n\n\n\nFile Upload/Download service\n - Get files from your personal computers to the cloud, and vice-versa.\n\n\nSpark Server\n - Run Spark jobs.\n\n\n\n\nRequesting the Spark Environment for your Team\n\n\nAs the \nTeam Leader\n, you must request the environment \nhere\n.\n\n\nAfter 10-15 minutes of submitting the form, you should receive a welcome e-mail. Follow the instructions in that e-mail to gain access to your Spark Environment.\n\n\nOnce you gained access, you must then share the Spark credentials with all the members of your team.\n\n\nUsing your Spark Environment\n\n\nAccessing your Spark Server\n\n\nGet the credentials from your \nTeam Leader\n.\n\n\nMac OS and Linux\n\n\nOpen Terminal and run the command below, where \nUSERNAME\n is your Demo Cloud username and \nIP-ADDRESS\n is the IP address of your Spark Server.\n\n\n# Where you downloaded the .pem file above.\ncd ~/Downloads\n\nchmod 400 *.pem\n\n# E.g.: ssh -i john.pem john@127.0.0.1\nssh -i USERNAME.pem USERNAME@IP-ADDRESS\n\n\n\n\nWindows\n\n\nInstall \nPuTTY\n. You should then use the following steps to connect. Or just get a Mac. :)\n\n\n\n\n\n\nUse \nPuTTYgen\n to convert your SSH key (\nUSERNAME.pem\n) from PEM format to PPK format (\nUSERNAME.ppk\n).\n\n\n\n\n\n\nOpen \nPuTTY\n and set the following parameters:\n\n\n\n\nSession \n Host Name (or IP address): \nIP-ADDRESS\n\n\nConnection \n Data \n Auto-login username: \nUSERNAME\n\n\nConnection \n SSH \n Auth \n Private key for authentication: \nUSERNAME.ppk\n\n\n\n\n\n\n\n\nClick \"Open\" to access your Spark Server.\n\n\n\n\n\n\nNote that \nUSERNAME\n is your Demo Cloud username and \nIP-ADDRESS\n is the IP address of your Spark Server.\n\n\n\n\n\n\nFrom within your Spark Server you can run shell commands such as \npyspark\n, \nspark-shell\n, and \nhdfs\n.\n\n\nUploading code and data to your Spark Server\n\n\n\n\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nClick the \"Uploads/Downloads\" link, \nthis will open up a new tab in your browser\n. You will be prompted to enter login, use \nadmin/hackboston\n as your username and password.. As the \nTeam Leader\n, share this link with all members of your team. Use Slack!\n\n\nUpload your files to your Spark server using the Upload/Download page.\n\n\nAs soon as the process completes, you should be able to access your files on your Spark Server in the \n/uploads\n directory.\n\n\n\n\nNote:\n Alternatively you can use the \nwget\n command from within your Spark Server to get files from external websites or servers.\n\n\nDownloading files from your Spark Server to your personal computer\n\n\n\n\nFrom the Spark Server, move any files you want to down to the \n/uploads\n directory.\n\n\nAs the \nTeam Leader\n log in to the \nIM Demo Cloud\n and go to your project page.\n\n\nClick the \"Uploads/Downloads\" link, \nthis will open up a new tab in your browser\n\n\n\n\nYou should see the files you moved from \nStep 1\n in the file listing. Simply click the file to download.", 
-            "title": "Spark"
-        }, 
-        {
-            "location": "/environments/spark/#overview", 
-            "text": "Your team will get you own Spark Environment, which you will use to analyze data. All members of the team are going to share the same credentials to access this environment. As the  Team Leader , you will need to distribute the login information to all of the members of your team.  Your Spark Environment is comprised of the following cloud services:   File Upload/Download service  - Get files from your personal computers to the cloud, and vice-versa.  Spark Server  - Run Spark jobs.", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/environments/spark/#requesting-the-spark-environment-for-your-team", 
-            "text": "As the  Team Leader , you must request the environment  here .  After 10-15 minutes of submitting the form, you should receive a welcome e-mail. Follow the instructions in that e-mail to gain access to your Spark Environment.  Once you gained access, you must then share the Spark credentials with all the members of your team.", 
-            "title": "Requesting the Spark Environment for your Team"
-        }, 
-        {
-            "location": "/environments/spark/#using-your-spark-environment", 
-            "text": "", 
-            "title": "Using your Spark Environment"
-        }, 
-        {
-            "location": "/environments/spark/#accessing-your-spark-server", 
-            "text": "Get the credentials from your  Team Leader .  Mac OS and Linux  Open Terminal and run the command below, where  USERNAME  is your Demo Cloud username and  IP-ADDRESS  is the IP address of your Spark Server.  # Where you downloaded the .pem file above.\ncd ~/Downloads\n\nchmod 400 *.pem\n\n# E.g.: ssh -i john.pem john@127.0.0.1\nssh -i USERNAME.pem USERNAME@IP-ADDRESS  Windows  Install  PuTTY . You should then use the following steps to connect. Or just get a Mac. :)    Use  PuTTYgen  to convert your SSH key ( USERNAME.pem ) from PEM format to PPK format ( USERNAME.ppk ).    Open  PuTTY  and set the following parameters:   Session   Host Name (or IP address):  IP-ADDRESS  Connection   Data   Auto-login username:  USERNAME  Connection   SSH   Auth   Private key for authentication:  USERNAME.ppk     Click \"Open\" to access your Spark Server.    Note that  USERNAME  is your Demo Cloud username and  IP-ADDRESS  is the IP address of your Spark Server.    From within your Spark Server you can run shell commands such as  pyspark ,  spark-shell , and  hdfs .", 
-            "title": "Accessing your Spark Server"
-        }, 
-        {
-            "location": "/environments/spark/#uploading-code-and-data-to-your-spark-server", 
-            "text": "As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Click the \"Uploads/Downloads\" link,  this will open up a new tab in your browser . You will be prompted to enter login, use  admin/hackboston  as your username and password.. As the  Team Leader , share this link with all members of your team. Use Slack!  Upload your files to your Spark server using the Upload/Download page.  As soon as the process completes, you should be able to access your files on your Spark Server in the  /uploads  directory.   Note:  Alternatively you can use the  wget  command from within your Spark Server to get files from external websites or servers.", 
-            "title": "Uploading code and data to your Spark Server"
-        }, 
-        {
-            "location": "/environments/spark/#downloading-files-from-your-spark-server-to-your-personal-computer", 
-            "text": "From the Spark Server, move any files you want to down to the  /uploads  directory.  As the  Team Leader  log in to the  IM Demo Cloud  and go to your project page.  Click the \"Uploads/Downloads\" link,  this will open up a new tab in your browser   You should see the files you moved from  Step 1  in the file listing. Simply click the file to download.", 
-            "title": "Downloading files from your Spark Server to your personal computer"
-        }, 
-        {
             "location": "/environments/dswb/", 
-            "text": "Overview\n\n\nData Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks. We recommend that you use notebooks as the way to visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.\n\n\nRequesting your own Data Scientist Workbench\n\n\nGo to \nData Scientist Workbench\n and click the big blue button.\n\n\nSharing Notebooks\n\n\nSharing notebooks can be very useful not only for team collaboration, but as a means to present your results publicly.\n\n\nSharing a notebook\n\n\n\n\nGo to \nData Scientist Workbench\n.\n\n\nOn the menu, click \"My Notebooks\".\n\n\nFind the notebook you want to share, and click the twistie \n to the left of it.\n\n\nClick the \nshare\n button \n\n\nClick the \n\"Show Link\"\n link to get the link to the shared notebook.\n\n\n\n\nImporting Notebooks\n\n\n\n\nCopy the link of the notebook you want to import (from step 5 ).\n\n\nGo to \nData Scientist Workbench\n and click \"My Notbooks\".\n\n\nPaste the link in the text field at the top right corner of the page.\n\n\nHit \"Enter\" to import the notebook.\n\n\n\n\nVisualize your Analysis Results\n\n\n\n\nUser Spark to write results to CSV files.\n\n\nTransfer from HDFS to local filesystem.\n\n\nDownload the files to your laptop using the Uploads/Downloads service.\n\n\nGo to Data Scientist Notebooks and drag/drop your CSV files in it.", 
+            "text": "Overview\n\n\nData Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks as the way to to run Spark programs, as well as visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.\n\n\nRequesting your own Data Scientist Workbench\n\n\nGo to \nData Scientist Workbench\n and click the big blue button.\n\n\nSharing Notebooks\n\n\nSharing notebooks can be very useful not only for team collaboration, but as a means to present your results publicly.\n\n\nExporting a notebook\n\n\n\n\nGo to \nData Scientist Workbench\n.\n\n\nOn the menu, click \nMy Notebooks\n.\n\n\nFind the notebook you want to share, and click the twistie (\n) to the left of it.\n\n\nClick the \nshare\n button (\n).\n\n\nClick the \nShow Link\n link to get the link to the shared notebook.\n\n\n\n\nImporting Notebooks\n\n\n\n\nCopy the link of the notebook you want to import (from step 5).\n\n\nGo to \nData Scientist Workbench\n and click \nMy Notbooks\n.\n\n\nPaste the link in the text field at the top right corner of the page.\n\n\nHit \nEnter\n to import the notebook.\n\n\n\n\nVisualize your Analysis Results\n\n\n\n\nUser Spark to write results to CSV files.\n\n\nTransfer from HDFS to local filesystem.\n\n\nDownload the files to your laptop using the Uploads/Downloads service.\n\n\nGo to Data Scientist Notebooks and drag/drop your CSV files in it.", 
             "title": "Data Scientist Workbench"
         }, 
         {
             "location": "/environments/dswb/#overview", 
-            "text": "Data Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks. We recommend that you use notebooks as the way to visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.", 
+            "text": "Data Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks as the way to to run Spark programs, as well as visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.", 
             "title": "Overview"
         }, 
         {
@@ -86,13 +71,13 @@
             "title": "Sharing Notebooks"
         }, 
         {
-            "location": "/environments/dswb/#sharing-a-notebook", 
-            "text": "Go to  Data Scientist Workbench .  On the menu, click \"My Notebooks\".  Find the notebook you want to share, and click the twistie   to the left of it.  Click the  share  button   Click the  \"Show Link\"  link to get the link to the shared notebook.", 
-            "title": "Sharing a notebook"
+            "location": "/environments/dswb/#exporting-a-notebook", 
+            "text": "Go to  Data Scientist Workbench .  On the menu, click  My Notebooks .  Find the notebook you want to share, and click the twistie ( ) to the left of it.  Click the  share  button ( ).  Click the  Show Link  link to get the link to the shared notebook.", 
+            "title": "Exporting a notebook"
         }, 
         {
             "location": "/environments/dswb/#importing-notebooks", 
-            "text": "Copy the link of the notebook you want to import (from step 5 ).  Go to  Data Scientist Workbench  and click \"My Notbooks\".  Paste the link in the text field at the top right corner of the page.  Hit \"Enter\" to import the notebook.", 
+            "text": "Copy the link of the notebook you want to import (from step 5).  Go to  Data Scientist Workbench  and click  My Notbooks .  Paste the link in the text field at the top right corner of the page.  Hit  Enter  to import the notebook.", 
             "title": "Importing Notebooks"
         }, 
         {
