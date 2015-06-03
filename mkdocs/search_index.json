@@ -21,26 +21,6 @@
             "title": "Get your team"
         }, 
         {
-            "location": "/running/", 
-            "text": "Request your Environment\n\n\nFor this hackathon your team is provided with Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.\n\n\n\n\nRequest your Data Scientist Workbench\n\n\n\n\nConfigure Github\n\n\n\n\nFind your teams project on \nHackSpark's GitHub page\n\n\nClone your teams repository (\nsee instructions here\n)\n\n\n\n\nDownload the Sample Data Set\n\n\nWe provided a sample data set for your team, but you can also bring your own data. To load the sample data set, \nLogin to your Spark Server\n and enter the following commands into the terminal:\n\n\ncd /data\nwget --content-disposition j.mp/SFHackData\nunzip SF-Hackathon-June-12.zip\n\n\n\n\nNext you'll likely want to \nload the data into HDFS\n and \nrun your first Spark program\n.", 
-            "title": "Get up and Running"
-        }, 
-        {
-            "location": "/running/#request-your-environment", 
-            "text": "For this hackathon your team is provided with Data Scientist Workbenches for each of the team members. We recommend that you use Data Scientist Workbench to prepare your overall project presentation.   Request your Data Scientist Workbench", 
-            "title": "Request your Environment"
-        }, 
-        {
-            "location": "/running/#configure-github", 
-            "text": "Find your teams project on  HackSpark's GitHub page  Clone your teams repository ( see instructions here )", 
-            "title": "Configure Github"
-        }, 
-        {
-            "location": "/running/#download-the-sample-data-set", 
-            "text": "We provided a sample data set for your team, but you can also bring your own data. To load the sample data set,  Login to your Spark Server  and enter the following commands into the terminal:  cd /data\nwget --content-disposition j.mp/SFHackData\nunzip SF-Hackathon-June-12.zip  Next you'll likely want to  load the data into HDFS  and  run your first Spark program .", 
-            "title": "Download the Sample Data Set"
-        }, 
-        {
             "location": "/slack/", 
             "text": "Slack\n is an awesome platform for team communication and it's our tool of choice for this hackathon. All the communication will flow through Slack!\n\n\nYou have been sent an invitation for this hackathon's \nSlack team\n. In case you haven't received it, please message us at \n asking for help!\n\n\nOnce your team is formed, you should create a \nprivate group\n for discussions, file sharing and collaboration in general.\n\n\nYou can use Slack from your Web browser, but we strongly recommend that you the native apps:\n\n\n\n\nMac OS\n\n\nWindows\n\n\niOS\n\n\nAndroid", 
             "title": "Slack"
@@ -49,56 +29,6 @@
             "location": "/resources/", 
             "text": "Free courses on \nBig Data University\n:\n\n\n\n\n\n\nSpark Fundamentals\n\n\n\n\n\n\nBig Data Fundamentals\n\n\n\n\n\n\nHadoop Fundamentals I\n\n\n\n\n\n\nMoving Data into Hadoop\n\n\n\n\n\n\nBig Data Analytics - Demos\n\n\n\n\n\n\n\n\n\n\nIPython tutorials on your \nNotebooks\n in Data Scientist Workbench.", 
             "title": "Resources"
-        }, 
-        {
-            "location": "/environments/dswb/", 
-            "text": "Overview\n\n\nData Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks as the way to to run Spark programs, as well as visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.\n\n\nRequesting your own Data Scientist Workbench\n\n\nGo to \nData Scientist Workbench\n and click the big blue button.\n\n\nSharing Notebooks\n\n\nSharing notebooks can be very useful not only for team collaboration, but as a means to present your results publicly.\n\n\nExporting a notebook\n\n\n\n\nGo to \nData Scientist Workbench\n.\n\n\nOn the menu, click \nMy Notebooks\n.\n\n\nFind the notebook you want to share, and click the twistie (\n) to the left of it.\n\n\nClick the \nshare\n button (\n).\n\n\nClick the \nShow Link\n link to get the link to the shared notebook.\n\n\n\n\nImporting Notebooks\n\n\n\n\nCopy the link of the notebook you want to import (from step 5).\n\n\nGo to \nData Scientist Workbench\n and click \nMy Notbooks\n.\n\n\nPaste the link in the text field at the top right corner of the page.\n\n\nHit \nEnter\n to import the notebook.\n\n\n\n\nVisualize your Analysis Results\n\n\n\n\nUser Spark to write results to CSV files.\n\n\nTransfer from HDFS to local filesystem.\n\n\nDownload the files to your laptop using the Uploads/Downloads service.\n\n\nGo to Data Scientist Notebooks and drag/drop your CSV files in it.", 
-            "title": "Data Scientist Workbench"
-        }, 
-        {
-            "location": "/environments/dswb/#overview", 
-            "text": "Data Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks as the way to to run Spark programs, as well as visualize, document and present your analysis. Currently, notebooks can be written in either Python or R.", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/environments/dswb/#requesting-your-own-data-scientist-workbench", 
-            "text": "Go to  Data Scientist Workbench  and click the big blue button.", 
-            "title": "Requesting your own Data Scientist Workbench"
-        }, 
-        {
-            "location": "/environments/dswb/#sharing-notebooks", 
-            "text": "Sharing notebooks can be very useful not only for team collaboration, but as a means to present your results publicly.", 
-            "title": "Sharing Notebooks"
-        }, 
-        {
-            "location": "/environments/dswb/#exporting-a-notebook", 
-            "text": "Go to  Data Scientist Workbench .  On the menu, click  My Notebooks .  Find the notebook you want to share, and click the twistie ( ) to the left of it.  Click the  share  button ( ).  Click the  Show Link  link to get the link to the shared notebook.", 
-            "title": "Exporting a notebook"
-        }, 
-        {
-            "location": "/environments/dswb/#importing-notebooks", 
-            "text": "Copy the link of the notebook you want to import (from step 5).  Go to  Data Scientist Workbench  and click  My Notbooks .  Paste the link in the text field at the top right corner of the page.  Hit  Enter  to import the notebook.", 
-            "title": "Importing Notebooks"
-        }, 
-        {
-            "location": "/environments/dswb/#visualize-your-analysis-results", 
-            "text": "User Spark to write results to CSV files.  Transfer from HDFS to local filesystem.  Download the files to your laptop using the Uploads/Downloads service.  Go to Data Scientist Notebooks and drag/drop your CSV files in it.", 
-            "title": "Visualize your Analysis Results"
-        }, 
-        {
-            "location": "/howtos/loadhdfs/", 
-            "text": "Assuming your data is in \n/data\n, follow these steps:\n\n\n\n\n\n\nCreate a data directory in HDFS.\n\n\nhdfs dfs -mkdir data\n\n\n\n\n\n\n\nLoad the CSV files.\n\n\ncd /data\nhdfs dfs -put file1.csv data/\n\n\n\n\n\n\n\nList files in the HDFS directory.\n\n\nhdfs dfs -ls data", 
-            "title": "Load Data into HDFS"
-        }, 
-        {
-            "location": "/howtos/firstspark/", 
-            "text": "Your first Spark program will calculate the value of Pi.\n\n\n\n\n\n\nOn your team's Spark Server, create your program directory structure.\n\n\nmkdir -p /code/SparkPi/src/main/scala\n\n\n\n\n\n\n\nUsing \nvi\n, create \n/code/SparkPi/src/main/scala/SparkPi.scala\n with the following content.\n\n\n/* Import the Spark and math packages */\nimport scala.math.random\nimport org.apache.spark._\n\n/* Computes an approximation to pi */\nobject SparkPi {\n  def main(args: Array[String]) {\n    /* Create the SparkConf object */\n    val conf = new SparkConf().setAppName(\"SparkPi\")\n\n    /* Create the SparkContext */\n    val spark = new SparkContext(conf)\n\n    /* Business logic to calculate Pi */\n    val slices = if (args.length \n 0) args(0).toInt else 2\n    val n = math.min(100000L * slices, Int.MaxValue).toInt // Avoid overflow\n    val count = spark.parallelize(1 until n, slices).map { i =\n\n    val x = random * 2 - 1\n    val y = random * 2 - 1\n    if (x*x + y*y \n 1) 1 else 0\n    }.reduce(_+_)\n\n    /* Printing the value of Pi */\n    println(\"Pi is roughly \" + 4.0 * count / n)\n\n    /* Stop the SparkContext */\n    spark.stop()\n  }\n}\n\n\n\n\n\n\n\nUsing \nvi\n again, create \n/code/SparkPi/sparkpi.sbt\n with the following content.\n\n\nname := \"SparkPi Project\"\nversion := \"1.0\"\nscalaVersion := \"2.10.4\"\nlibraryDependencies += \"org.apache.spark\" %% \"spark-core\" % \"1.3.1\"\n\n\n\n\n\n\n\nPackage your program.\n\n\ncd /code/SparkPi\n\n# This will take a while!\nsbt package\n\n\n\n\n\n\n\nRun it!\n\n\nspark-submit \\\n  --class \"SparkPi\" \\\n  --master local[4] \\\n  target/scala-2.10/sparkpi-project_2.10-1.0.jar", 
-            "title": "Run your First Spark Program"
-        }, 
-        {
-            "location": "/howtos/configure-spark-verbosity/", 
-            "text": "Create the Log4j properties file.\n\n\ncp \\\n  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties.template \\\n  /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties\n\n\n\n\n\n\n\nUsing \nvi\n, open the newly created file.\n\n\nvi /opt/ibm/spark-1.3.1_IBM_1-bin-2.6.0/conf/log4j.properties\n\n\n\n\n\n\n\nEdit the following line.\n\n\nlog4j.rootCategory=WARN, console\n\n\n\nYou must replace \nWARN\n, with one of the following options, going from the most verbose to the least verbose.\n\n\n\n\nDEBUG\n\n\nINFO\n\n\nWARN\n\n\nERROR\n\n\nFATAL\n\n\n\n\nWe recommend using \nERROR\n.\n The file contents should match the following snippet.\n\n\n# Set everything to be logged to the console\nlog4j.rootCategory=ERROR, console\nlog4j.appender.console=org.apache.log4j.ConsoleAppender\nlog4j.appender.console.target=System.err\nlog4j.appender.console.layout=org.apache.log4j.PatternLayout\nlog4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd HH:mm:ss} %p %c{1}: %m%n\n\n# Settings to quiet third party logs that are too verbose\nlog4j.logger.org.eclipse.jetty=WARN\nlog4j.logger.org.eclipse.jetty.util.component.AbstractLifeCycle=ERROR\nlog4j.logger.org.apache.spark.repl.SparkIMain$exprTyper=INFO\nlog4j.logger.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=INFO", 
-            "title": "Configure Spark Verbosity"
         }
     ]
 }
