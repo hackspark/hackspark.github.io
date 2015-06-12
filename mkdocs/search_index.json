@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/environment/dswb/", 
-            "text": "Overview\n\n\nData Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks to develop and run Spark programs, as well visualize, document and present your analysis. Currently, Spark integration is only supported by the Scala runtime.\n\n\nRequesting your own Data Scientist Workbench\n\n\nGo to \nData Scientist Workbench\n and click the big blue button. After completing the registration, you will receive an e-mail with instructions.", 
+            "text": "Overview\n\n\nData Scientist Workbench aims to be your one-stop shop for data science tools. At this time, it is a technology preview limited to IPython/Jupyter notebooks enabled with Spark integration. You will use notebooks to develop and run Spark programs, as well visualize, document and present your analysis. Currently, Spark integration is only supported by the Scala runtime.\n\n\nRequesting your own Data Scientist Workbench\n\n\nGo to \nData Scientist Workbench\n and click the big blue button. After completing the registration, you will receive an e-mail with instructions.\n\n\nHello World\n\n\nTo get a feel of how the Data Scientist Notebooks work with Scala and Spark, follow the steps below to load a \"Hello World\" notebook along with its sample data.\n\n\n\n\n\n\n\nGo to \nData Scientist Workbench\n and click the \nMy Notebooks\n menu.\n\n\n\n\nUse the search bar to import the following file and notebook.\n\n\n\n\n\n\nNotebook:\n  \nhttps://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/sHbSUP0luy1xE2q/Scala%20and%20Spark%20in%2015%20minutes.ipynb\n\n\n\n\n\n\nData:\n\nhttps://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/t9LwxWg0EkWKMYX/2015.csv\n\n\n\n\n\n\n\n\n\n\nFollow the notebook!\n\n\n\n\n\n\nFor more details on sharing data and notebooks, check \nthis guide\n.", 
             "title": "Data Scientist Workbench"
         }, 
         {
@@ -39,6 +39,11 @@
             "location": "/environment/dswb/#requesting-your-own-data-scientist-workbench", 
             "text": "Go to  Data Scientist Workbench  and click the big blue button. After completing the registration, you will receive an e-mail with instructions.", 
             "title": "Requesting your own Data Scientist Workbench"
+        }, 
+        {
+            "location": "/environment/dswb/#hello-world", 
+            "text": "To get a feel of how the Data Scientist Notebooks work with Scala and Spark, follow the steps below to load a \"Hello World\" notebook along with its sample data.    Go to  Data Scientist Workbench  and click the  My Notebooks  menu.   Use the search bar to import the following file and notebook.    Notebook:\n   https://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/sHbSUP0luy1xE2q/Scala%20and%20Spark%20in%2015%20minutes.ipynb    Data: https://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/t9LwxWg0EkWKMYX/2015.csv      Follow the notebook!    For more details on sharing data and notebooks, check  this guide .", 
+            "title": "Hello World"
         }, 
         {
             "location": "/howtos/sharing-data-notebooks/", 
