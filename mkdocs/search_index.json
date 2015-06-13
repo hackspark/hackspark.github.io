@@ -69,6 +69,26 @@
             "location": "/howtos/load-data-dsw/", 
             "text": "To data into your Data Scientist Workbench, all you have to do is:\n\n\n\n\nGo to \nData Scientist Workbench\n and click the \nMy Notebooks\n menu.\n\n\nDrag the files you want to load from your computer and drop them on DSW.\n\n\n\n\nNote:\n There is no upload progress indication. If you're trying to upload a large file, it might take a few minutes for the upload to complete and the file show up in \"Recent Data\".", 
             "title": "Load Data into DSW"
+        }, 
+        {
+            "location": "/howtos/install-libs/", 
+            "text": "R\n\n\nUse \ninstall.packages()\n in a R notebook, as shown in the example below.\n\n\ninstall.packages(\nyaml\n, repos=\nhttp://cran.stat.ucla.edu\n)\n\n\n\n\nPython\n\n\nOpen a Python notebook and use \npip\n to install Python packages, as shown below.\n\n\n!pip install vincent\n\n\n\n\nScala\n\n\nAdd new JARs currrently is not officially supported. If you need to do so, please send a direct message to Henrique Zambon on Slack.", 
+            "title": "Install Libraries"
+        }, 
+        {
+            "location": "/howtos/install-libs/#r", 
+            "text": "Use  install.packages()  in a R notebook, as shown in the example below.  install.packages( yaml , repos= http://cran.stat.ucla.edu )", 
+            "title": "R"
+        }, 
+        {
+            "location": "/howtos/install-libs/#python", 
+            "text": "Open a Python notebook and use  pip  to install Python packages, as shown below.  !pip install vincent", 
+            "title": "Python"
+        }, 
+        {
+            "location": "/howtos/install-libs/#scala", 
+            "text": "Add new JARs currrently is not officially supported. If you need to do so, please send a direct message to Henrique Zambon on Slack.", 
+            "title": "Scala"
         }
     ]
 }
