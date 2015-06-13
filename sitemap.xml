@@ -43,6 +43,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>http://hackspark.github.io/environment/download-sample-data/</loc>
+     <lastmod>2015-06-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     

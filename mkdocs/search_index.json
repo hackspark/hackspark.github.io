@@ -46,6 +46,11 @@
             "title": "Hello World"
         }, 
         {
+            "location": "/environment/download-sample-data/", 
+            "text": "We are providing an example data set to get you started, but we encourage you to use use your own. You can download it in the link below.\n\n\nhttp://bit.ly/SFHackData\n\n\nNext, you'll probably want to \nupload it to your workbench\n.", 
+            "title": "Download Sample Data"
+        }, 
+        {
             "location": "/howtos/sharing-data-notebooks/", 
             "text": "Sharing data and notebooks can be very useful for team collaboration.\n\n\nExporting Data and Notebooks\n\n\n\n\nGo to \nData Scientist Workbench\n and click the \nMy Notebooks\n menu.\n\n\nFind the file or notebook you want to share, and click the twistie (\n) to the left of it.\n\n\n\n\nClick the \nshare\n button (\n).\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\nClick the \nShow Link\n link to get the link to the shared notebook.\n\n\n\n\nSend this link to the person you're sharing the file or notebook with.\n\n\n\n\nImporting Data and Notebooks\n\n\n\n\nCopy the link of the file or notebook you want to import (from step 5 above).\n\n\nGo to \nData Scientist Workbench\n and click the \nMy Notebooks\n menu.\n\n\n\n\nPaste the link in the text field at the top right corner of the page.\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\nHit \nEnter\n to import the file or notebook.", 
             "title": "Sharing Data and Notebooks"
